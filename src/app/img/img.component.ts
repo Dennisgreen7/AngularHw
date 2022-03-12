@@ -13,6 +13,7 @@ export class ImgComponent implements OnInit {
   }
    imgWidth: string = "100";
    imgHeight: string ="100";
+   imgInfo: string = "Real Madrid Club"
   GetImg(){
     var imgSrc:string ="https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Real_Madrid_CF.svg/1200px-Real_Madrid_CF.svg.png";
     return imgSrc;
